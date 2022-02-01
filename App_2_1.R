@@ -1,7 +1,6 @@
 library(shiny)
 
 ui <- fluidPage(
-  h1('plot title'),
   plotOutput('mtcars')
 )
 
